@@ -1,0 +1,643 @@
+
+
+
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+
+.grey-qo-regular {
+  font-family: "Grey Qo", cursive;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 78px;
+}
+
+
+
+/* --------------------------------share-style--------------- */
+.btn{
+  color: #FFFFFF;
+  padding: 16px 46.5px 16px 46.5px;
+  border-radius: 42px;
+
+}
+.common-font{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.your-color{
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  }
+  .font-2{
+    font-size: 20px;
+    font-weight: 900px;
+    color: rgb(255, 255, 255);
+  }
+
+
+/* -----------------------------banar----------------------------- */
+#all-nev{
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  border: 2px solid red;
+}
+.father{
+
+width: 1440px;
+margin: auto;
+border: 2px solid red;
+}
+
+.nev-banar{
+    display: flex;
+    justify-content: space-between;
+   
+   padding: 57px 190px 0px 190px; 
+   border: 2px solid red;
+ 
+   
+}
+.home{
+  text-decoration: none;
+  margin-left: 47px; 
+  
+}
+.fitness{
+  color: #E6533C;
+  font-size: 36px;
+  font-weight: bolder;
+  text-decoration: none;
+  font-style: italic;
+  
+}
+.home{
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.nav-manu{
+
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 4px;
+  margin-bottom: 32px;
+  /* display: none; */
+
+}
+.home-2{
+  margin: 0px;
+}
+.banar-png{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 190px 0px 190px;
+  border: 2px solid red;
+}
+.title{
+  font-weight: 900;
+  font-size: 78px;
+  color: #FFFFFF;
+}
+#info{
+  border: 2px solid red;
+}
+.Images-png{
+  border: 2px solid red;
+  background-image: url(resos/Images\ 2.png);
+  width: 549px;
+  height: 580px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.card{
+  width: 193px;
+  height: 98px;
+  box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+margin: 157px 140px 0px 450px;
+border: 2px solid red;
+}
+.card-2{ 
+
+width: 206px;
+height: 96px;
+
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+margin: 214px 520px 35px 100px;
+border: 2px solid red;
+}
+/* ---------------------------button--------------- */
+.first{
+  background-color: #E6533C;
+  border: none;
+  
+}
+.secend{
+  background-color: black;
+  
+  
+ 
+}
+
+
+/* --------------------------------------habits------------------------ */
+
+.father-2{
+  padding: 100px 198px 0px 198px;
+}
+.habits{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+ margin: 58px auto 0px auto;
+ width: 1050px;
+}
+.habits-content{
+text-align: center;
+
+  
+}
+.habit-image{
+  border-radius: 100%;
+  
+}
+.habit-info{
+  text-align: center;
+}
+.habits-color{
+ background-color: rgb(0, 0, 0);
+}
+.info-1{
+  font-size:18px ;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+/* --------------------------------------------run---------------------------- */
+.run{
+  background-color: #222222;
+  /* background-color: #FFFFFF; */
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  border-radius : 18px;
+  /* margin-bottom: 400px; */
+  
+  height: 371px;
+  width: 1060px;
+}
+.run-image{
+  height: 312px;
+  width: 366px;
+  margin: 30px 32px 29px 0px;
+  border-radius : 18px;
+   
+  
+  /* border: 2px solid red;  */
+ 
+  
+}
+.run-info{
+  margin: 0px 0px 40px 56px ;
+ 
+}
+
+/* ----------------------------------------BMI Calculator Chart-------------- */
+
+
+/* --------------------------------Meet Our Team----------------------- */
+.t-1{
+  background-image:url(resos/trainer1.png);
+  width: 326.67px;
+  height: 272px;
+  background-repeat:no-repeat ;
+ 
+ background-size: cover;
+  margin: 20px 0px 0px 20px;
+  border-radius: 18px;
+}
+.t-2{
+  background-image:url(resos/trainer2.png);
+  width: 326.67px;
+  height: 272px;
+ 
+ background-size: cover;
+ background-repeat:no-repeat ; 
+ margin: 20px 20px 0px 20px;
+ border-radius: 18px;
+}
+.t-3{
+  background-image:url(resos/trainer3.png);
+  width: 326.67px;
+  height: 272px;
+ 
+ background-size: cover;
+ background-repeat:no-repeat ; 
+ margin: 20px 20px 0px 0px;
+ border-radius: 18px;
+}
+.t-4{
+  background-image:url(resos/trainer4.png);
+  width: 326.67px;
+  height: 272px;
+ 
+ background-size: cover;
+ background-repeat:no-repeat ; 
+ margin: 20px 0px 0px 20px;
+ border-radius: 18px;
+}
+.t-5{
+  background-image:url(resos/trainer5.png);
+  width: 326.67px;
+  height: 272px;
+ 
+ background-size: cover;
+ background-repeat:no-repeat ; 
+ margin: 20px ;
+ border-radius: 18px;
+}
+.t-6{
+  background-image:url(resos/trainer6.png);
+  width: 326.67px;
+  height: 272px;
+ 
+ background-size: cover;
+ background-repeat:no-repeat ; 
+ margin: 20px 20px 20px 0px;
+ border-radius: 18px;
+}
+.trim-continur{
+  display: grid;
+  grid-template-columns: repeat(3,1fr );
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+}
+.father-4{
+  /* margin: 88px 190px 88px 190px; */
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  width: 1060px;
+  height: 782px;
+  /* border: 2px solid red; */
+  margin: auto;
+  
+}
+.trim-info{
+  text-align: center;
+}
+.t-name{
+  margin: 213px 0px 3px 19px;
+}
+.t{
+  margin: 0px 260px 16px 19px;
+}
+/* -------------------------------------footer----------------- */
+ .footer{
+  height: 489px;
+  width: 1440px;
+  
+  /* background-color: #FFFFFF; */
+  display: flex;
+  border: 2px solid red; 
+  margin: auto;
+}
+.child-div{
+  display: flex;
+  flex-direction: column;
+}
+#sumary{
+  background-color: #313131;
+  
+}
+.get{
+  font-weight: 700;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+}
+.started{
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.first-2{
+  margin: 66px 0px 188px 190px ;
+ } 
+ .secend-2{
+  margin: 66px 0px 177px 102px ;
+ }
+ .third{
+  margin: 66px 191px 83px 151px ;
+ }
+  .copy-right{
+  width: 1059.5px;
+  margin: auto;
+  }   
+
+ .hr{
+
+width: 1059.5px;
+height: 0;
+border: 2px solid rgba(255, 255, 255, 0.1);
+
+ }
+
+.last{
+  font-size: 20px;
+font-weight: 400;
+width: 1059.5px;
+text-align: center;
+color: rgba(255, 255, 255, 0.5)
+}
+/* ------------------------------------------BMI Calculator------------------- */
+
+ .bmi{
+  text-align: center;
+ }
+ .BMI-Calculator{
+  background-color:rgb(192, 183, 183);
+ 
+ }
+ table,th,td{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+ }
+ .bmi-content{
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  margin: auto;
+  height: 447px;
+  border: 2px solid red;
+ }
+
+ 
+
+.number{
+  width: 282.5px;
+  height:48px ;
+  background-color:rgba(255, 255, 255, 0.1) ;
+  border: none;
+  border-radius: 8px;
+}
+.number-2{
+  margin-top: 12px;
+  
+}
+.number-3{
+  Width: 290px;
+Height: 52px;
+background-color:rgba(255, 255, 255, 0.1) ;
+border: none;
+border-radius: 8px;
+}
+.factor{
+  height: 48px;
+  width: 585px;
+  margin-top: 12px;
+  background-color:rgba(255, 255, 255, 0.1) ;
+  border: none;
+  border-radius: 8px;
+}
+/* .option{
+  color:rgba(255, 255, 255, 0.1) ;
+} */
+.bmi-info{
+  
+  
+}
+.table{
+ 
+/* position: absolute; */
+width: 310px;
+height: 216px;
+border: 2px solid red;
+
+}
+.table-info{
+  margin: 52px 0px 133px 189px;
+  border: 2px solid red;
+}
+.bmi-content-2{
+  margin: 49px 0px auto 175px;
+  border: 2px solid rgb(159, 209, 65);
+  
+}
+.your{
+  width: 350px;
+height: 34px;
+font-size: 28px;
+font-weight: 900;
+color: rgb(255, 255, 255);
+border: 2px solid rgb(159, 209, 65);
+}
+.input-type{
+  /* width: 577px; */
+height: 168px;
+/* margin-top: 40px; */
+}
+
+
+
+
+
+/* -----------------------------------responsiv---------------------------------- */
+ /* mobile phone   */
+ @media screen and (max-width:520px) {
+  .nev-banar{
+    /* flex-direction: column; */
+    /* height: auto;
+    width: auto;
+    margin: auto; */
+  }
+  .banar-png{
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin: auto;
+  }
+  .father{
+
+    width: auto;
+    margin: auto;
+    }
+    /* .card, .card-2{
+      margin: auto;  */
+    
+    .Images-png{
+      background-position: center;
+      width: auto;
+      border: 2px solid yellow;
+    }
+
+ .card,.card-2{
+  margin: 0px;
+ } 
+    
+     
+    
+    
+    
+   
+    
+  
+    
+
+
+
+
+
+    .habits{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      text-align: center;
+      margin:0;
+     width: 100%; 
+     height: auto;
+     align-items: center;
+    }
+    .father-2{
+      padding:0;
+    }
+
+/* run------------------------- */
+.run{
+  flex-direction: column;
+  height: auto;
+  width: auto;
+}
+.run-image{
+ 
+  margin: 30px 0px 0px 50px;
+  
+}
+
+/* <!-- -------------------------------BMI Calculator----------------- --> */
+
+.bmi-content{
+  flex-direction: column;
+  width: auto;
+  margin: 0 0 0 0;
+  height:auto;
+  /* justify-content: start; */
+  border: 2px solid green;
+}
+.table-info{
+  margin:0;
+  border: 2px solid red;
+}
+.bmi-content-2{
+  margin:0 0 0 0;
+  border: 2px solid rgb(23, 0, 128);
+  height: 1000px;
+}
+
+.factor{
+  height: 48px;
+  width: auto;
+  margin-top: 12px;
+  background-color:rgba(255, 255, 255, 0.1) ;
+  border: none;
+  border-radius: 8px;
+}
+
+
+
+
+/* --------------------------trim---------------- */
+
+
+.trim-continur{
+  display: grid;
+  grid-template-columns: repeat(1,1fr );
+  margin: 0px;
+
+}
+.father-4{
+  
+  width: auto;
+  height: 2000px;
+  /* border: 2px solid red; */
+  margin: auto;
+  
+}
+.t-1{
+  margin: 0px;
+}
+.t-2{
+  margin: 0px;
+}
+.t-3{
+  margin: 0px;
+}
+.t-4{
+  margin: 0px;
+}
+.t-5{
+  margin: 0px;
+}
+.t-6{
+  margin: 0px;
+}
+
+
+/* -----------------------------------footer-------------------- */
+
+.footer{
+  
+    height: 700px;
+    width: auto;
+    
+    /* background-color: #FFFFFF; */
+  flex-direction: column;
+    border: 2px solid red; 
+    margin: auto;
+  }
+  .hr{
+
+    width: auto;
+    height: 0;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    
+     }
+    
+    .last{
+     
+    width: auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5)
+    }
+    .copy-right{
+      width: auto;
+      margin:0px;
+      }
+      .first-2{
+        margin: 0px 0px 0px 150px ;
+        
+       } 
+       .secend-2{
+        margin:0px 0px 0px 150px  ;
+        
+       }
+       .third{
+        margin: 0px 0px 0px 150px  ;
+        
+       }
+    }
+  
